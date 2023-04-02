@@ -1,0 +1,33 @@
+internal:
+  length: 0x0A
+chassis:
+  length: 0x09
+  before:
+    - {length: 1, desc: Type, value: 0x17}
+  field:
+    - {length: 12, desc: Part Number, value: 'WC3319015001'}
+    - {length: 11, desc: Serial Number, value: 'CLDZ30CG003'}
+    - {length: 32, desc: Extra, value: ''}
+board:
+  length: 0x08
+  before:
+    - {length: 1, desc: Language Code, value: 0x00}
+    - {length: 3, desc: Mfg Date, value: 0x8E57C8}
+  field:
+    - {length: 12, desc: Manufacturer, value: Inventec}
+    - {length: 16, desc: Product Name, value: 'ARBOK'}
+    - {length: 10, desc: Serial Number, value: 'AC1CPP2554'}
+    - {length: 12, desc: Part Number, value: '1395T3344102'}
+    - {length: 0, desc: FRU File ID, value: ''}
+product:
+  length: 0x24
+  before:
+    - {length: 1, desc: Language Code, value: 0x00}
+  field:
+    - {length: 12, desc: Manufacturer Name, value: Inventec}
+    - {length: 32, desc: Product Name, value: 'RM761-IV'}
+    - {length: 24, desc: Part Number, value: ''}
+    - {length: 6, desc: Version, value: ''}
+    - {length: 24, desc: Serial Number, value: 'SLYW31CE013'}
+    - {length: 32, desc: Asset Tag, value: ''}
+    - {length: 0, desc: FRU File ID, value: ''}
